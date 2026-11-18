@@ -2,6 +2,6 @@ name: test
 on: push
 jobs:
   test:
-    runs-on: instabox-small
+    runs-on: instabox-medium
     steps:
       - run: echo hello
